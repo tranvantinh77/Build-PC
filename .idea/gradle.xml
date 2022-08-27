@@ -11,7 +11,11 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/pc_api" />
+            <option value="$PROJECT_DIR$/pc_common" />
+            <option value="$PROJECT_DIR$/screens_home" />
             <option value="$PROJECT_DIR$/screens_login" />
+            <option value="$PROJECT_DIR$/screens_splash" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

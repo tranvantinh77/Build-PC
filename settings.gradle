@@ -15,3 +15,7 @@ dependencyResolutionManagement {
 rootProject.name = "build_pc"
 include ':app'
 include ':screens_login'
+include ':screens_home'
+include ':pc_common'
+include ':pc_api'
+include ':screens_splash'

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleImageView">
+        <attr name="civ_border_width" format="dimension" />
+        <attr name="civ_border_color" format="color" />
+        <attr name="civ_border_overlay" format="boolean" />
+        <attr name="civ_fill_color" format="color" />
+        <attr name="civ_circle_background_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="Custom_TextView_EditText">
+<!--        <attr name="digitsValue">-->
+<!--            <enum name="text" value="0" />-->
+<!--            <enum name="address" value="1" />-->
+<!--        </attr>-->
+        <attr name="fontValue">
+            <enum name="sf_ui_text_bold" value="0" />
+            <enum name="sf_ui_text_bold_italic" value="1" />
+            <enum name="sf_ui_text_heavy" value="2" />
+            <enum name="sf_ui_text_heavy_italic" value="3" />
+            <enum name="sf_ui_text_italic" value="4" />
+            <enum name="sf_ui_text_light" value="5" />
+            <enum name="sf_ui_text_light_italic" value="6" />
+            <enum name="sf_ui_text_medium" value="7" />
+            <enum name="sf_ui_text_medium_italic" value="8" />
+            <enum name="sf_ui_text_regular" value="9" />
+            <enum name="sf_ui_text_semi_bold" value="10" />
+            <enum name="sf_ui_text_semi_bold_italic" value="11" />
+            <enum name="fs_north_land" value="12" />
+            <enum name="butterly" value="13" />
+
+            <enum name="inter_black" value="14" />
+            <enum name="inter_bold" value="15" />
+            <enum name="inter_extra_bold" value="16" />
+            <enum name="inter_extra_light" value="17" />
+            <enum name="inter_light" value="18" />
+            <enum name="inter_medium" value="19" />
+            <enum name="inter_regular" value="20" />
+            <enum name="inter_semi_bold" value="21" />
+            <enum name="inter_thin" value="22" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="TicketView">
+        <attr name="ticketOrientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="ticketBackgroundColor" format="color" />
+        <attr name="ticketScallopRadius" format="dimension" />
+        <attr name="ticketScallopPositionPercent" format="float" />
+        <attr name="ticketShowBorder" format="boolean" />
+        <attr name="ticketBorderWidth" format="dimension" />
+        <attr name="ticketBorderColor" format="color" />
+        <attr name="ticketShowDivider" format="boolean" />
+        <attr name="ticketDividerWidth" format="dimension" />
+        <attr name="ticketDividerPadding" format="dimension" />
+        <attr name="ticketDividerColor" format="color" />
+        <attr name="ticketDividerType" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="dash" value="1" />
+        </attr>
+        <attr name="ticketDividerDashGap" format="dimension" />
+        <attr name="ticketDividerDashLength" format="dimension" />
+        <attr name="ticketCornerType" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="rounded" value="1" />
+            <enum name="scallop" value="2" />
+        </attr>
+        <attr name="ticketCornerRadius" format="dimension" />
+        <attr name="android:elevation" />
+        <attr name="ticketElevation" format="dimension" />
+        <attr name="ticketBackgroundBeforeDivider" format="reference" />
+        <attr name="ticketBackgroundAfterDivider" format="reference" />
+        <attr name="ticketShadowColor" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="MaskedEditText">
+        <attr name="mask" format="string" />
+    </declare-styleable>
+    <declare-styleable name="StepProgressView">
+        <attr name="progressBarHeight" format="dimension" />
+        <attr name="progressBarWidth" format="dimension" />
+        <attr name="totalProgress" format="integer" />
+        <attr name="currentProgress" format="integer" />
+        <attr name="progressBackgroundColor" format="color"/>
+        <attr name="progressColor" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="CustomRatingBarView">
+        <attr name="isClickable" format="boolean" />
+        <attr name="rating" format="integer" />
+    </declare-styleable>
+</resources>

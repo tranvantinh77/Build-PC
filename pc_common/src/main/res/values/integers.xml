@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="value_1">1</integer>
+    <integer name="value_4">4</integer>
+    <integer name="value_6">6</integer>
+    <integer name="value_8">8</integer>
+    <integer name="value_12">12</integer>
+
+    <integer name="value_16">16</integer>
+    <integer name="value_18">18</integer>
+    <integer name="value_24">24</integer>
+    <integer name="value_36">36</integer>
+    <integer name="value_40">40</integer>
+    <integer name="value_48">48</integer>
+    <integer name="value_72">72</integer>
+    <integer name="value_96">96</integer>
+    <integer name="value_108">108</integer>
+    <integer name="value_144">144</integer>
+    <integer name="value_216">216</integer>
+    <integer name="animation_time">300</integer>
+</resources>
