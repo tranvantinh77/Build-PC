@@ -3,13 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../../layout/custom_preview.xml" value="0.13758992805755396" />
         <entry key="..\:/MOBILE/BuildPC/app/src/main/res/layout/activity_main.xml" value="0.3854166666666667" />
         <entry key="..\:/MOBILE/BuildPC/screens_login/src/main/res/layout/activity_login.xml" value="0.3703125" />
         <entry key="..\:/Users/tranv/Desktop/Build-PC/screens_splash/src/main/res/layout/activity_splash.xml" value="0.3854166666666667" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.3463541666666667" />
+        <entry key="screens_login/src/main/res/layout/activity_login.xml" value="0.3463541666666667" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import com.rad.pc_common.pc_common.utils.Utils
 import com.rad.screens_login.LoginActivity
 import com.rad.screens_splash.R
 
@@ -17,9 +18,9 @@ class SplashActivity : AppCompatActivity() {
 
         Handler(Looper.getMainLooper()).postDelayed({
             /* Create an Intent that will start the Menu-Activity. */
-            val mainIntent = Intent(this, LoginActivity::class.java)
-            startActivity(mainIntent)
-            finish()
+            Utils.startActivityWithFinish(this@SplashActivity,
+                LoginActivity::class.java,
+                null)
         }, 2000)
     }
 }

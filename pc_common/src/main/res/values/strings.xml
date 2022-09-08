@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Build PC</string>
+
+    <!-- ver 1.0 -->
+    <string name="login">Đăng nhập</string>
+
+</resources>

@@ -49,6 +49,8 @@ class Constants {
     class ActionMain {
         companion object {
             const val callAction = "callAction"
+            const val showMessage = 0
+            const val openUrl = 1
 
         }
     }

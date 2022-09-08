@@ -1,10 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+
+<!--    &lt;!&ndash;Color PC APP &ndash;&gt;-->
+<!--    <color name="white">#fff</color>-->
+<!--    <color name="textColorPrimary">#323232</color>-->
+<!--    <color name="textColorSecondary">#A9A9A9</color>-->
+<!--    <color name="gray_white">#F1F1F1</color>-->
+
+<!--    <color name="textColorPurple">#6A61E7</color>-->
+<!--    <color name="colorBlueCoral">#DDF2FF</color>-->
+<!--    <color name="colorBlue">#37AAFF</color>-->
+<!--    <color name="colorGreen">#7ED321</color>-->
+<!--    <color name="colorRed">#FF5252</color>-->
+<!--    <color name="colorGray">#a8a8a8</color>-->
+<!--    <color name="color_app">#3D5CFF</color>-->
+<!--    <color name="black">#FF000000</color>-->
+
+<!--    <color name="purple_200">#FFBB86FC</color>-->
+<!--    <color name="purple_500">#FF6200EE</color>-->
+<!--    <color name="purple_700">#FF3700B3</color>-->
+<!--    <color name="teal_200">#FF03DAC5</color>-->
+<!--    <color name="teal_700">#FF018786</color>-->
+
+<!--    &lt;!&ndash; ver 1.0 &ndash;&gt;-->
+<!--    <color name="color_gray">#B8B8D2</color>-->
+<!--    <color name="pc_title_app">#1F1F39</color>-->
+
 </resources>

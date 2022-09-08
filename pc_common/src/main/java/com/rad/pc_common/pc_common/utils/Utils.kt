@@ -1,20 +1,13 @@
 package com.rad.pc_common.pc_common.utils
 
-import android.annotation.SuppressLint
 import android.app.Activity
-import android.app.ActivityManager
-import android.bluetooth.BluetoothAdapter
 import android.content.*
-import android.content.ClipboardManager
-import android.content.Context.ACTIVITY_SERVICE
 import android.content.pm.PackageManager
 import android.content.res.Resources
 import android.graphics.*
-import android.graphics.drawable.Drawable
 import android.net.Uri
 import android.os.*
 import android.provider.MediaStore
-import android.provider.Settings
 import android.text.*
 import android.text.method.LinkMovementMethod
 import android.text.style.ClickableSpan
@@ -31,7 +24,6 @@ import android.view.inputmethod.InputMethodManager
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
-import androidx.core.app.NotificationManagerCompat
 import androidx.core.content.ContextCompat
 import androidx.core.widget.NestedScrollView
 import androidx.fragment.app.DialogFragment
@@ -40,17 +32,10 @@ import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentTransaction
 import androidx.recyclerview.widget.RecyclerView
 import java.io.*
-import java.lang.reflect.Type
 import java.net.URLEncoder
-import java.security.GeneralSecurityException
-import java.text.NumberFormat
 import java.text.ParseException
 import java.text.SimpleDateFormat
 import java.util.*
-import java.util.concurrent.TimeUnit
-import com.google.android.material.snackbar.Snackbar
-
-import android.widget.ImageView
 
 import android.widget.TextView
 
@@ -522,18 +507,18 @@ class Utils {
             }
         }
 
-        fun setResultWithRequestLoginAndMessage(activity: Activity, message: String?) {
-            val intent = Intent()
-            val bundle = Bundle()
-            bundle.putInt(Constants.ActionMain.callAction, Constants.ActionMain.requestLogin)
-            message?.let {
-                bundle.putString(Constants.BundleParam.message, it)
-            }
-            intent.putExtras(bundle)
-            activity.setResult(Activity.RESULT_OK, intent)
-            activity.finish()
-            activity.overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right)
-        }
+//        fun setResultWithRequestLoginAndMessage(activity: Activity, message: String?) {
+//            val intent = Intent()
+//            val bundle = Bundle()
+//            bundle.putInt(Constants.ActionMain.callAction, Constants.ActionMain.requestLogin)
+//            message?.let {
+//                bundle.putString(Constants.BundleParam.message, it)
+//            }
+//            intent.putExtras(bundle)
+//            activity.setResult(Activity.RESULT_OK, intent)
+//            activity.finish()
+//            activity.overridePendingTransition(R.anim.slide_in_left, R.anim.slide_out_right)
+//        }
 
         fun finishActivityWithAnim(activity: Activity) {
             activity.finish()

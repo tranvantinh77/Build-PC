@@ -1,5 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!--Color PC APP -->
+    <color name="white">#fff</color>
+    <color name="textColorPrimary">#323232</color>
+    <color name="textColorSecondary">#A9A9A9</color>
+    <color name="gray_white">#F1F1F1</color>
+
+    <color name="textColorPurple">#6A61E7</color>
+    <color name="colorBlueCoral">#DDF2FF</color>
+    <color name="colorBlue">#37AAFF</color>
+    <color name="colorGreen">#7ED321</color>
+    <color name="colorRed">#FF5252</color>
+    <color name="colorGray">#a8a8a8</color>
+    <color name="color_app">#3D5CFF</color>
+    <color name="black">#FF000000</color>
+
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <!-- ver 1.0 -->
+    <color name="color_gray">#B8B8D2</color>
+    <color name="pc_title_app">#1F1F39</color>
+
     <color name="PrimaryTextColor">#ffffff</color>
     <color name="colorPrimary">#37AAFF</color>
     <color name="colorPrimaryDark">#6869FF</color>
@@ -29,23 +55,6 @@
     <color name="epg_black">#000000</color>
     <color name="epg_white">#FFFFFF</color>
     <color name="epg_white_opacity_50">#80FFFFFF</color>
-
-
-    <!--Color Hi FPT -->
-    <color name="white">#fff</color>
-
-
-    <color name="textColorPrimary">#323232</color>
-    <color name="textColorSecondary">#A9A9A9</color>
-    <color name="gray_white">#F1F1F1</color>
-
-    <color name="textColorPurple">#6A61E7</color>
-    <color name="colorBlueCoral">#DDF2FF</color>
-    <color name="colorBlue">#37AAFF</color>
-    <color name="colorGreen">#7ED321</color>
-    <color name="colorRed">#FF5252</color>
-    <color name="colorGray">#a8a8a8</color>
-
 
     <color name="textColorWhiteOverHome">#fff</color>
     <color name="textcolordarkwhitehome">#979ba6</color>
@@ -100,7 +109,6 @@
     <color name="color_white">#FFFFFF</color>
     <color name="color_white_op40">#66FFFFFF</color>
     <color name="color_red">#FF5252</color>
-    <color name="color_gray">#D8D8D8</color>
     <color name="color_green">#7ED321</color>
     <color name="black_overlay">#66000000</color>
     <color name="color_purple">#6A61E7</color>
@@ -323,13 +331,10 @@
     <color name="bgr_btn_birthday">#2959F0</color>
 
     <color name="colorAccent">#03DAC5</color>
-<!--    <color name="blue">#4564ED</color> //bg_blue-->
-    <color name="black">#000000</color>
     <color name="grey_bg">#F3F6FF</color>
     <color name="blue_tiem">#89A7FE</color>
     <color name="gey_header">#666666</color>
     <color name="color_button">#2959F0</color>
-<!--    <color name="color_gray">#F3F6FF</color> //bg_light_blue-->
     <color name="color_tranparent">#00FCFDFD</color>
     <color name="bg_color">#E5E5E5</color>
     <color name="color_text_blue">#4564ED</color>
